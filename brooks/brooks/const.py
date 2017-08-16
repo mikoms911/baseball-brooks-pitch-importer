@@ -23,9 +23,8 @@ SEASON_RANGES = {
     2015: (datetime.datetime(2015, 4, 5),
            datetime.datetime(2015, 11, 2)),
 
-    # 2016 season cannot get here soon enough
-    # 2016: (datetime.datetime(2016, 4, 3),
-    #        datetime.datetime(2016, 10, 2))
+   2016: (datetime.datetime(2016, 4, 3),
+          datetime.datetime(2016, 10, 2))
 }
 
 MIN_SEASON = min(SEASON_RANGES)
